@@ -28,10 +28,12 @@ export default function LyricsPage({ song, onBack }: Props) {
 
   return (
     <main className="wrap">
-      <button className="back" onClick={onBack}>
-        <span className="arrow" aria-hidden="true" />
-        <span>All songs</span>
-      </button>
+      <div className="sticky-bar">
+        <button className="back" onClick={onBack}>
+          <span className="arrow" aria-hidden="true" />
+          <span>All songs</span>
+        </button>
+      </div>
 
       {song ? (
         <>

@@ -155,13 +155,21 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ---------- Lyrics page ---------- */
+.sticky-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--bg);
+  padding: 14px 0;
+  margin-bottom: 42px;
+}
+
 .back {
   display: inline-flex;
   align-items: center;
   gap: 8px;
   font-size: 13px;
   color: var(--muted);
-  margin-bottom: 56px;
   letter-spacing: 0.01em;
   transition: color 120ms ease;
   cursor: pointer;
@@ -176,6 +184,7 @@ a { color: inherit; text-decoration: none; }
   width: 14px;
   border-top: 1px solid currentColor;
   position: relative;
+  flex-shrink: 0;
 }
 .back .arrow::before {
   content: "";
@@ -185,6 +194,19 @@ a { color: inherit; text-decoration: none; }
   border-left: 1px solid currentColor;
   border-bottom: 1px solid currentColor;
   transform: rotate(45deg);
+}
+
+@media (max-width: 540px) {
+  .back .arrow {
+    width: 18px;
+    border-top-width: 1.5px;
+  }
+  .back .arrow::before {
+    width: 7px; height: 7px;
+    top: -4px;
+    border-left-width: 1.5px;
+    border-bottom-width: 1.5px;
+  }
 }
 
 .lyrics-header {
@@ -257,7 +279,21 @@ a { color: inherit; text-decoration: none; }
   .song-list a { grid-template-columns: 1fr; gap: 4px; padding: 22px 0; }
   .song-title { font-size: 22px; }
   .song-meta { font-size: 16px; text-align: left; }
-  .back { font-size: 16px; padding: 8px 0; margin-bottom: 40px; }
+  .sticky-bar {
+    padding: 0;
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .back {
+    width: 100%;
+    min-height: 52px;
+    padding: 0 16px;
+    font-size: 17px;
+    gap: 10px;
+    justify-content: flex-start;
+  }
   .lyrics-title { font-size: 42px; }
   .lyrics-meta { font-size: 16px; }
   .lyrics-body { font-size: 20px; line-height: 1.75; max-width: 100%; }
