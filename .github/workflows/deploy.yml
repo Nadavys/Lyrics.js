@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-      - run: pnpm install
+      - run: pnpm install --ignore-lockfile-policy
       - run: pnpm build:songs
       - run: pnpm build
       - uses: actions/upload-pages-artifact@v3
