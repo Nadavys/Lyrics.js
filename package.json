@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build:songs": "node scripts/build-songs.js"
+    "build:songs": "node scripts/build-songs.js",
+    "tui": "pnpm --prefix tui start"
   },
   "dependencies": {
     "react": "^19.2.6",

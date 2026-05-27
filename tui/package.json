@@ -1,0 +1,21 @@
+{
+  "name": "lyricsjs-tui",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.tsx",
+    "dev": "tsx watch src/index.tsx"
+  },
+  "dependencies": {
+    "ink": "^7.0.4",
+    "ink-text-input": "^6.0.0",
+    "react": "^19.0.0",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "~6.0.0"
+  }
+}

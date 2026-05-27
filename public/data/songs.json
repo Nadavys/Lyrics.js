@@ -1,5 +1,10 @@
 [
   {
+    "path": "Big-in-Japan-Alphaville",
+    "title": "Big in Japan",
+    "singer": "Alphaville"
+  },
+  {
     "path": "Cant-Take-My-Eyes-Off-You",
     "title": "Can’t Take My Eyes Off You",
     "singer": "Frankie Valli"
@@ -15,9 +20,34 @@
     "singer": "Laura Branigan"
   },
   {
+    "path": "Heart-Of-Glass-Blondie",
+    "title": "Heart Of Glass",
+    "singer": "Blondie"
+  },
+  {
+    "path": "In-My-Life-The-Beatles",
+    "title": "In My Life",
+    "singer": "The Beatles"
+  },
+  {
     "path": "Life On Mars",
     "title": "Life On Mars?",
     "singer": "David Bowie"
+  },
+  {
+    "path": "Unchained-Melody-Righteous-Brothers",
+    "title": "Unchained Melody",
+    "singer": "Righteous Brothers"
+  },
+  {
+    "path": "careless-whisper-george-michael",
+    "title": "Careless Whisper",
+    "singer": "George Michael"
+  },
+  {
+    "path": "everywhere-Fleetwood-Mac",
+    "title": "Everywhere",
+    "singer": "Fleetwood Mac"
   },
   {
     "path": "faith",
