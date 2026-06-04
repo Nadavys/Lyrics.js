@@ -1,5 +1,10 @@
 [
   {
+    "path": "9-to-5-dolly-parton",
+    "title": "9 to 5",
+    "singer": "dolly parton"
+  },
+  {
     "path": "Big-in-Japan-Alphaville",
     "title": "Big in Japan",
     "singer": "Alphaville"
@@ -33,6 +38,21 @@
     "path": "Life On Mars",
     "title": "Life On Mars?",
     "singer": "David Bowie"
+  },
+  {
+    "path": "People-Are-Strange-the-doors",
+    "title": "People Are Strange",
+    "singer": "the doors"
+  },
+  {
+    "path": "Perhaps-Perhaps-Perhaps-doris-day",
+    "title": "Perhaps Perhaps Perhaps",
+    "singer": "doris day"
+  },
+  {
+    "path": "The-Chauffeur-Duran-Duran",
+    "title": "The Chauffeur",
+    "singer": "Duran Duran"
   },
   {
     "path": "Unchained-Melody-Righteous-Brothers",
