@@ -1,7 +1,7 @@
 ---
-title: "Perhaps Perhaps Perhaps"
+title: "Perhaps, Perhaps, Perhaps"
 
-singer: "doris day"
+singer: "Doris Day"
 
 ---
 

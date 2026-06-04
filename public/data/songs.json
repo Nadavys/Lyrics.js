@@ -5,6 +5,11 @@
     "singer": "dolly parton"
   },
   {
+    "path": "Always-On-My-Mind-Elvis-Presley",
+    "title": "Always On My Mind",
+    "singer": "Elvis Presley"
+  },
+  {
     "path": "Big-in-Japan-Alphaville",
     "title": "Big in Japan",
     "singer": "Alphaville"
@@ -30,6 +35,11 @@
     "singer": "Blondie"
   },
   {
+    "path": "If-I-Can-Dream-Stereo-Mix-Elvis-Presley",
+    "title": "If I Can Dream (Stereo Mix)",
+    "singer": "Elvis Presley"
+  },
+  {
     "path": "In-My-Life-The-Beatles",
     "title": "In My Life",
     "singer": "The Beatles"
@@ -46,8 +56,13 @@
   },
   {
     "path": "Perhaps-Perhaps-Perhaps-doris-day",
-    "title": "Perhaps Perhaps Perhaps",
-    "singer": "doris day"
+    "title": "Perhaps, Perhaps, Perhaps",
+    "singer": "Doris Day"
+  },
+  {
+    "path": "Rhiannon-Fleetwood-Mac",
+    "title": "Rhiannon",
+    "singer": "Fleetwood Mac"
   },
   {
     "path": "The-Chauffeur-Duran-Duran",
