@@ -1,5 +1,5 @@
 ---
-title: "Something (Remastered 2009)"
+title: "Something"
 
 singer: "The Beatles"
 
