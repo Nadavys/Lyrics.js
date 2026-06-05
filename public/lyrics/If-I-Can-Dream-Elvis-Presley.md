@@ -1,5 +1,5 @@
 ---
-title: "If I Can Dream (Stereo Mix)"
+title: "If I Can Dream"
 
 singer: "Elvis Presley"
 
