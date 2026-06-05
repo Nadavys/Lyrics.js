@@ -1,7 +1,7 @@
 ---
 title: "Don't Stop Me Now"
 
-singer: "Queen"
+artist: "Queen"
 
 ---
 

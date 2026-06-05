@@ -101,7 +101,7 @@ export function AddForm({ onDone }: Props) {
         const song: SongFile = {
           slug: makeSlug(form.title, form.artist),
           title: form.title,
-          singer: form.artist,
+          artist: form.artist,
           lyrics: '\n' + form.lyrics,
         }
         writeSong(song)

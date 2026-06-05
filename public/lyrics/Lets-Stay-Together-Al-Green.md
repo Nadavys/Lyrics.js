@@ -1,7 +1,7 @@
 ---
 title: "Let's Stay Together"
 
-singer: "Al Green"
+artist: "Al Green"
 
 ---
 

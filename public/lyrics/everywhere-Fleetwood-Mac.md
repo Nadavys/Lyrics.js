@@ -1,7 +1,7 @@
 ---
 title: "Everywhere"
 
-singer: "Fleetwood Mac"
+artist: "Fleetwood Mac"
 
 ---
 

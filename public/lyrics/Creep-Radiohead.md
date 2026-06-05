@@ -1,7 +1,7 @@
 ---
 title: "Creep"
 
-singer: "Radiohead"
+artist: "Radiohead"
 
 ---
 

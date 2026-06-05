@@ -1,7 +1,7 @@
 ---
 title: "In My Life"
 
-singer: "The Beatles"
+artist: "The Beatles"
 
 ---
 

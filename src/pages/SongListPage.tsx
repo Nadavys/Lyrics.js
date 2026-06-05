@@ -17,7 +17,7 @@ export default function SongListPage({ songs, onSelect }: Props) {
   const f = filter.trim().toLowerCase()
   const rows = songs.filter(s => {
     if (!f) return true
-    return s.title.toLowerCase().includes(f) || s.singer.toLowerCase().includes(f)
+    return s.title.toLowerCase().includes(f) || s.artist.toLowerCase().includes(f)
   }).sort((a, b) => a.title.localeCompare(b.title))
 
   return (
@@ -41,7 +41,7 @@ export default function SongListPage({ songs, onSelect }: Props) {
           id="q"
           type="search"
           autoComplete="off"
-          placeholder="Search by song or singer"
+          placeholder="Search by song or artist"
           value={filter}
           onChange={e => setFilter(e.target.value)}
           className="w-full border-0 border-b border-ink bg-transparent text-[28px] tracking-[-0.01em] py-[14px] pl-9 pr-0 text-ink outline-none placeholder:text-muted placeholder:font-light max-[540px]:text-[30px] max-[540px]:py-4"
@@ -65,7 +65,7 @@ export default function SongListPage({ songs, onSelect }: Props) {
               className="grid grid-cols-[1fr_auto] items-baseline gap-6 py-[18px] pl-0 pr-3 [transition:background-color_120ms_ease,padding_120ms_ease] cursor-pointer hover:bg-hover hover:pl-3 hover:pr-6 max-[540px]:grid-cols-1 max-[540px]:gap-1 max-[540px]:py-[22px]"
             >
               <span className="text-[19px] font-medium tracking-[-0.01em] max-[540px]:text-[22px]">{s.title}</span>
-              <span className="text-[14px] text-muted text-right whitespace-nowrap max-[540px]:text-[16px] max-[540px]:text-left">{s.singer}</span>
+              <span className="text-[14px] text-muted text-right whitespace-nowrap max-[540px]:text-[16px] max-[540px]:text-left">{s.artist}</span>
             </a>
           </li>
         ))}

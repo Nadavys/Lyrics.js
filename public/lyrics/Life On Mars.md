@@ -1,6 +1,6 @@
 ---
 title: "Life On Mars?"
-singer: "David Bowie"
+artist: "David Bowie"
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "9 to 5"
 
-singer: "dolly parton"
+artist: "dolly parton"
 
 ---
 

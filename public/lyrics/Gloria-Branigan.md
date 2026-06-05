@@ -1,6 +1,6 @@
 ---
 title: "Gloria"
-singer: "Laura Branigan"
+artist: "Laura Branigan"
 ---
 
 [Verse 1]

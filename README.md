@@ -40,7 +40,7 @@ You can also add songs manually:
    ```
    ---
    title: "Song Title"
-   singer: "Artist Name"
+   artist: "Artist Name"
    ---
    
    [Verse 1]

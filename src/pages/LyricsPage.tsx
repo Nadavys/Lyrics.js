@@ -46,8 +46,8 @@ export default function LyricsPage({ song, onBack }: Props) {
             <h1 className="text-[44px] font-medium tracking-[-0.025em] leading-[1.05] m-0 mb-[18px] max-[540px]:text-[42px]">{song.title}</h1>
             <div className="flex flex-wrap gap-5 text-[14px] text-muted max-[540px]:text-[16px]">
               <span className="inline-flex items-baseline gap-2">
-                <span className="text-[11px] tracking-[0.08em] uppercase">Singer</span>
-                <span className="text-ink">{song.singer}</span>
+                <span className="text-[11px] tracking-[0.08em] uppercase">Artist</span>
+                <span className="text-ink">{song.artist}</span>
               </span>
             </div>
           </header>

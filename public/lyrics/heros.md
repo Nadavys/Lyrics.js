@@ -1,7 +1,7 @@
 ---
 title: "Heros"
 
-singer: "David Bowie"
+artist: "David Bowie"
 
 ---
 

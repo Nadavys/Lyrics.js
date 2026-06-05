@@ -1,7 +1,7 @@
 ---
 title: "Mad World"
 
-singer: "Tears for Fears"
+artist: "Tears for Fears"
 
 ---
 [Verse 1]

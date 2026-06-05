@@ -1,7 +1,7 @@
 ---
 title: "Careless Whisper"
 
-singer: "George Michael"
+artist: "George Michael"
 
 ---
 

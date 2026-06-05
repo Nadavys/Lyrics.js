@@ -1,7 +1,7 @@
 ---
 title: "Always On My Mind"
 
-singer: "Elvis Presley"
+artist: "Elvis Presley"
 
 ---
 

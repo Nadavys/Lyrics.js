@@ -1,7 +1,7 @@
 ---
 title: "I Want You Back"
 
-singer: "Jackson 5"
+artist: "Jackson 5"
 
 ---
 

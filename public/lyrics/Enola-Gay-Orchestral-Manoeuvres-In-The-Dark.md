@@ -1,7 +1,7 @@
 ---
 title: "Enola Gay"
 
-singer: "Orchestral Manoeuvres In The Dark"
+artist: "Orchestral Manoeuvres In The Dark"
 
 ---
 

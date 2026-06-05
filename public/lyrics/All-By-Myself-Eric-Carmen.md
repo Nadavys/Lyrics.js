@@ -1,7 +1,7 @@
 ---
 title: "All By Myself"
 
-singer: "Eric Carmen"
+artist: "Eric Carmen"
 
 ---
 

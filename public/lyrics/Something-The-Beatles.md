@@ -1,7 +1,7 @@
 ---
 title: "Something"
 
-singer: "The Beatles"
+artist: "The Beatles"
 
 ---
 

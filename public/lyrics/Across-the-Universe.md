@@ -1,7 +1,7 @@
 ---
 title: "Across the Universe"
 
-singer: "The Beatles"
+artist: "The Beatles"
 
 ---
 

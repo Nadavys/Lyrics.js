@@ -7,7 +7,7 @@ export const BUILD_SCRIPT = new URL('../../scripts/build-songs.js', import.meta.
 export interface SongFile {
   slug: string
   title: string
-  singer: string
+  artist: string
   lyrics: string
 }
 
@@ -28,9 +28,9 @@ export function readSong(slug: string): SongFile | null {
   if (!match) return null
   const front = match[1]
   const title = front.match(/^title:\s*"(.+)"\s*$/m)?.[1]
-  const singer = front.match(/^singer:\s*"(.+)"\s*$/m)?.[1]
-  if (!title || !singer) return null
-  return { slug, title, singer, lyrics: match[2] ?? '' }
+  const artist = front.match(/^artist:\s*"(.+)"\s*$/m)?.[1]
+  if (!title || !artist) return null
+  return { slug, title, artist, lyrics: match[2] ?? '' }
 }
 
 export function writeSong(song: SongFile): void {
@@ -51,5 +51,5 @@ export function toSlug(title: string): string {
 }
 
 function serialize(s: SongFile): string {
-  return `---\ntitle: "${s.title}"\n\nsinger: "${s.singer}"\n\n---\n${s.lyrics}\n`
+  return `---\ntitle: "${s.title}"\n\nartist: "${s.artist}"\n\n---\n${s.lyrics}\n`
 }

@@ -1,7 +1,7 @@
 ---
 title: "While My Guitar Gently Weeps"
 
-singer: "The Beatles"
+artist: "The Beatles"
 
 ---
 

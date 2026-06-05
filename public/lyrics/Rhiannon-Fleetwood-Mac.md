@@ -1,7 +1,7 @@
 ---
 title: "Rhiannon"
 
-singer: "Fleetwood Mac"
+artist: "Fleetwood Mac"
 
 ---
 

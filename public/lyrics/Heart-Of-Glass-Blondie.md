@@ -1,7 +1,7 @@
 ---
 title: "Heart Of Glass"
 
-singer: "Blondie"
+artist: "Blondie"
 
 ---
 

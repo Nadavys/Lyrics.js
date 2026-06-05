@@ -57,7 +57,7 @@ export function SongList({ onAdd, onEdit, onDelete }: Props) {
             <Text color={i === cursor ? 'cyan' : undefined} bold={i === cursor}>
               {song.title}
             </Text>
-            <Text dimColor>{'  '}{song.singer}</Text>
+            <Text dimColor>{'  '}{song.artist}</Text>
           </Box>
         ))
       )}

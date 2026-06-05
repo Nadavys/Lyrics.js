@@ -1,7 +1,7 @@
 ---
 title: "If I Can Dream"
 
-singer: "Elvis Presley"
+artist: "Elvis Presley"
 
 ---
 

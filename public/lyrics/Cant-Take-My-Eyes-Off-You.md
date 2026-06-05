@@ -1,7 +1,7 @@
 ---
 title: "Can’t Take My Eyes Off You"
 
-singer: "Frankie Valli"
+artist: "Frankie Valli"
 
 ---
 

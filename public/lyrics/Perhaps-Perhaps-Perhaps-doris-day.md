@@ -1,7 +1,7 @@
 ---
 title: "Perhaps, Perhaps, Perhaps"
 
-singer: "Doris Day"
+artist: "Doris Day"
 
 ---
 

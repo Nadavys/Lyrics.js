@@ -1,7 +1,7 @@
 ---
 title: "Stay (I Missed You)"
 
-singer: "Lisa Loeb"
+artist: "Lisa Loeb"
 
 ---
 [Intro]

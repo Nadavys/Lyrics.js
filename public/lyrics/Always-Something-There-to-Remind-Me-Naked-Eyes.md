@@ -1,7 +1,7 @@
 ---
 title: "Always Something There to Remind Me"
 
-singer: "Naked Eyes"
+artist: "Naked Eyes"
 
 ---
 

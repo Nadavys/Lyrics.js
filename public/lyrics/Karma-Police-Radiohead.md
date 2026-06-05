@@ -1,7 +1,7 @@
 ---
 title: "Karma Police"
 
-singer: "Radiohead"
+artist: "Radiohead"
 
 ---
 

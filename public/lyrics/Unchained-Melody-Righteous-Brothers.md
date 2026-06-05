@@ -1,7 +1,7 @@
 ---
 title: "Unchained Melody"
 
-singer: "Righteous Brothers"
+artist: "Righteous Brothers"
 
 ---
 

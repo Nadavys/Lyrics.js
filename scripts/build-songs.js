@@ -16,14 +16,14 @@ function parse(content, filename) {
   const front = match[1]
 
   const title = front.match(/^title:\s*"(.+)"\s*$/m)?.[1]
-  const singer = front.match(/^singer:\s*"(.+)"\s*$/m)?.[1]
+  const artist = front.match(/^artist:\s*"(.+)"\s*$/m)?.[1]
 
-  if (!title || !singer) {
-    console.warn(`  skip ${filename}: missing title or singer`)
+  if (!title || !artist) {
+    console.warn(`  skip ${filename}: missing title or artist`)
     return null
   }
 
-  return { path: basename(filename, '.md'), title, singer }
+  return { path: basename(filename, '.md'), title, artist }
 }
 
 const files = (await readdir(lyricsDir))

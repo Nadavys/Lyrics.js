@@ -1,7 +1,7 @@
 ---
 title: "Spirit In The Sky"
 
-singer: "Norman Greenbaum"
+artist: "Norman Greenbaum"
 
 ---
 

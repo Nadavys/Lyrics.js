@@ -1,7 +1,7 @@
 ---
 title: "Easy"
 
-singer: "Commodores"
+artist: "Commodores"
 ---
 
 [Verse 1]

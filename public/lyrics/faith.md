@@ -1,7 +1,7 @@
 ---
 title: "Faith"
 
-singer: "George Michael"
+artist: "George Michael"
 
 ---
 

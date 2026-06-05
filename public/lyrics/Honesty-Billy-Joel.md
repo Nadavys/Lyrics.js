@@ -1,7 +1,7 @@
 ---
 title: "Honesty"
 
-singer: "Billy Joel"
+artist: "Billy Joel"
 
 ---
 

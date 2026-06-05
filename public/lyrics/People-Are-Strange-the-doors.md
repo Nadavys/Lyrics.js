@@ -1,7 +1,7 @@
 ---
 title: "People Are Strange"
 
-singer: "the doors"
+artist: "the doors"
 
 ---
 

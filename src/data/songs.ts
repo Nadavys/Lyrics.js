@@ -1,5 +1,5 @@
 export interface Song {
   path: string;
   title: string;
-  singer: string;
+  artist: string;
 }

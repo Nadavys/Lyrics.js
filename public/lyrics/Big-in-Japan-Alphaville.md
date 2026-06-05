@@ -1,7 +1,7 @@
 ---
 title: "Big in Japan"
 
-singer: "Alphaville"
+artist: "Alphaville"
 
 ---
 

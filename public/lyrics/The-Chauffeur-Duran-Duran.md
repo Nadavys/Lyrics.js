@@ -1,7 +1,7 @@
 ---
 title: "The Chauffeur"
 
-singer: "Duran Duran"
+artist: "Duran Duran"
 
 ---
 
