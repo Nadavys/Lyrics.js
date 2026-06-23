@@ -160,6 +160,11 @@
     "artist": "Radiohead"
   },
   {
+    "path": "Kung-Fu-Fighting-Carl-Douglas",
+    "title": "Kung Fu Fighting",
+    "artist": "Carl Douglas"
+  },
+  {
     "path": "Lets-Stay-Together-Al-Green",
     "title": "Let's Stay Together",
     "artist": "Al Green"
@@ -248,6 +253,16 @@
     "path": "The-foundations-build-me-up-buttercup",
     "title": "Build Me Up Buttercup",
     "artist": "The Foundations"
+  },
+  {
+    "path": "Tutti-Frutti-Little-Richard",
+    "title": "Tutti Frutti",
+    "artist": "Little Richard"
+  },
+  {
+    "path": "Twist-And-Shout-Remastered-2009-The-Beatles",
+    "title": "Twist And Shout (Remastered 2009)",
+    "artist": "The Beatles"
   },
   {
     "path": "Unchained-Melody-Righteous-Brothers",

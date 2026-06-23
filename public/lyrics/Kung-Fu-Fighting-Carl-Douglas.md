@@ -1,0 +1,34 @@
+---
+title: "Kung Fu Fighting"
+
+artist: "Carl Douglas"
+
+---
+
+Everybody was kung-fu fighting
+Those cats were fast as lightning
+In fact it was a little bit frightning
+But they fought with expert timing
+
+They were funky China men from funky Chinatown
+They were chopping them up and they were chopping them down
+It's an ancient Chineese art and everybody knew their part
+From a fainting to a slip and kicking from the hip
+
+Everybody was kung-fu fighting
+Those cats were fast as lightning
+In fact it was a little bit frightning
+But they fought with expert timing
+
+There was funky Billy Chin and little Sammy Chung
+He said here comes the big boss, lets get it on
+We took a bow and made a stand, started swinging with the hand
+The sudden motion made me skip now we're into a brand knew trip
+
+Everybody was kung-fu fighting
+Those cats were fast as lightning
+In fact it was a little bit frightning
+But they did it with expert timing
+
+(repeat)..make sure you have expert timing
+Kung-fu fighting, had to be fast as lightning
