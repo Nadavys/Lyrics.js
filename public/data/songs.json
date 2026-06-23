@@ -25,14 +25,34 @@
     "artist": "Naked Eyes"
   },
   {
+    "path": "Ashes-to-Ashes-2017-Remaster-David-Bowie",
+    "title": "Ashes to Ashes (2017 Remaster)",
+    "artist": "David Bowie"
+  },
+  {
     "path": "Big-in-Japan-Alphaville",
     "title": "Big in Japan",
     "artist": "Alphaville"
   },
   {
+    "path": "Burning-Down-the-House-Talking-Heads",
+    "title": "Burning Down the House",
+    "artist": "Talking Heads"
+  },
+  {
     "path": "Cant-Take-My-Eyes-Off-You",
     "title": "Can’t Take My Eyes Off You",
     "artist": "Frankie Valli"
+  },
+  {
+    "path": "Cat-stevens-wild-world-lyrics",
+    "title": "Wild World",
+    "artist": "Cat Stevens"
+  },
+  {
+    "path": "Come-On-Eileen-Dexys-Midnight-Runners",
+    "title": "Come On Eileen",
+    "artist": "Dexys Midnight Runners"
   },
   {
     "path": "Creep-Radiohead",
@@ -43,6 +63,16 @@
     "path": "Cry-to-Me-Solomon-Burke",
     "title": "Cry to Me",
     "artist": "Solomon Burke"
+  },
+  {
+    "path": "Dancing-Queen-ABBA",
+    "title": "Dancing Queen",
+    "artist": "ABBA"
+  },
+  {
+    "path": "Daydream-Believer-The-Monkees",
+    "title": "Daydream Believer",
+    "artist": "The Monkees"
   },
   {
     "path": "Dont-Stop-Me-Now-Remastered-Queen",
@@ -58,6 +88,11 @@
     "path": "Enola-Gay-Orchestral-Manoeuvres-In-The-Dark",
     "title": "Enola Gay",
     "artist": "Orchestral Manoeuvres In The Dark"
+  },
+  {
+    "path": "Everybody-Wants-To-Rule-The-World-Tears-for-Fears",
+    "title": "Everybody Wants To Rule The World",
+    "artist": "Tears for Fears"
   },
   {
     "path": "Forever-In-Blue-Jeans-Neil-Diamond",
@@ -80,6 +115,16 @@
     "artist": "Billy Joel"
   },
   {
+    "path": "I-Only-Want-To-Be-With-You-Mono-Dusty-Springfield",
+    "title": "I Only Want To Be With You (Mono)",
+    "artist": "Dusty Springfield"
+  },
+  {
+    "path": "I-Try-Macy-Gray",
+    "title": "I Try",
+    "artist": "Macy Gray"
+  },
+  {
     "path": "I-Want-You-Back-Jackson-5",
     "title": "I Want You Back",
     "artist": "Jackson 5"
@@ -93,6 +138,16 @@
     "path": "In-My-Life-The-Beatles",
     "title": "In My Life",
     "artist": "The Beatles"
+  },
+  {
+    "path": "It-Never-Rains-in-Southern-California-Albert-Hammond",
+    "title": "It Never Rains in Southern California",
+    "artist": "Albert Hammond"
+  },
+  {
+    "path": "Just-Cant-Get-Enough-Depeche-Mode",
+    "title": "Just Can't Get Enough",
+    "artist": "Depeche Mode"
   },
   {
     "path": "Just-the-Way-You-Are-Billy-Joel",
@@ -115,6 +170,11 @@
     "artist": "David Bowie"
   },
   {
+    "path": "Once-in-a-Lifetime-2005-Remaster-Talking-Heads",
+    "title": "Once in a Lifetime (2005 Remaster)",
+    "artist": "Talking Heads"
+  },
+  {
     "path": "People-Are-Strange-the-doors",
     "title": "People Are Strange",
     "artist": "the doors"
@@ -123,6 +183,16 @@
     "path": "Perhaps-Perhaps-Perhaps-doris-day",
     "title": "Perhaps, Perhaps, Perhaps",
     "artist": "Doris Day"
+  },
+  {
+    "path": "Psycho-Killer-2003-Remaster-Talking-Heads",
+    "title": "Psycho Killer (2003 Remaster)",
+    "artist": "Talking Heads"
+  },
+  {
+    "path": "Return-to-Sender-Elvis-Presley",
+    "title": "Return to Sender",
+    "artist": "Elvis Presley"
   },
   {
     "path": "Rhiannon-Fleetwood-Mac",
@@ -135,14 +205,29 @@
     "artist": "The Beatles"
   },
   {
+    "path": "Soul-to-Squeeze-Red-Hot-Chili-Peppers",
+    "title": "Soul to Squeeze",
+    "artist": "Red Hot Chili Peppers"
+  },
+  {
     "path": "Spirit-In-The-Sky-Norman-Greenbaum",
     "title": "Spirit In The Sky",
     "artist": "Norman Greenbaum"
   },
   {
+    "path": "Sugar-Sugar-The-Archies",
+    "title": "Sugar Sugar",
+    "artist": "The Archies"
+  },
+  {
     "path": "Sunny-Bobby-Hebb",
     "title": "Sunny",
     "artist": "Bobby Hebb"
+  },
+  {
+    "path": "The-Air-That-I-Breathe-The-Hollies",
+    "title": "The Air That I Breathe",
+    "artist": "The Hollies"
   },
   {
     "path": "The-Chauffeur-Duran-Duran",
@@ -153,6 +238,11 @@
     "path": "The-Gambler-Kenny-Rogers",
     "title": "The Gambler",
     "artist": "Kenny Rogers"
+  },
+  {
+    "path": "The-Safety-Dance-Men-Without-Hats",
+    "title": "The Safety Dance",
+    "artist": "Men Without Hats"
   },
   {
     "path": "The-foundations-build-me-up-buttercup",
@@ -168,6 +258,16 @@
     "path": "While-My-Guitar-Gently-Weeps",
     "title": "While My Guitar Gently Weeps",
     "artist": "The Beatles"
+  },
+  {
+    "path": "You-Dont-Have-To-Say-You-Love-Me-Dusty-Springfield",
+    "title": "You Don't Have To Say You Love Me",
+    "artist": "Dusty Springfield"
+  },
+  {
+    "path": "You-Sexy-Thing-7-Version-Hot-Chocolate",
+    "title": "You Sexy Thing (7'' Version)",
+    "artist": "Hot Chocolate"
   },
   {
     "path": "careless-whisper-george-michael",
