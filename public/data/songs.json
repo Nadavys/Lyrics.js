@@ -40,6 +40,11 @@
     "artist": "Radiohead"
   },
   {
+    "path": "Cry-to-Me-Solomon-Burke",
+    "title": "Cry to Me",
+    "artist": "Solomon Burke"
+  },
+  {
     "path": "Dont-Stop-Me-Now-Remastered-Queen",
     "title": "Don't Stop Me Now",
     "artist": "Queen"
@@ -53,6 +58,11 @@
     "path": "Enola-Gay-Orchestral-Manoeuvres-In-The-Dark",
     "title": "Enola Gay",
     "artist": "Orchestral Manoeuvres In The Dark"
+  },
+  {
+    "path": "Forever-In-Blue-Jeans-Neil-Diamond",
+    "title": "Forever In Blue Jeans",
+    "artist": "Neil Diamond"
   },
   {
     "path": "Gloria-Branigan",
@@ -83,6 +93,11 @@
     "path": "In-My-Life-The-Beatles",
     "title": "In My Life",
     "artist": "The Beatles"
+  },
+  {
+    "path": "Just-the-Way-You-Are-Billy-Joel",
+    "title": "Just the Way You Are",
+    "artist": "Billy Joel"
   },
   {
     "path": "Karma-Police-Radiohead",
@@ -125,9 +140,24 @@
     "artist": "Norman Greenbaum"
   },
   {
+    "path": "Sunny-Bobby-Hebb",
+    "title": "Sunny",
+    "artist": "Bobby Hebb"
+  },
+  {
     "path": "The-Chauffeur-Duran-Duran",
     "title": "The Chauffeur",
     "artist": "Duran Duran"
+  },
+  {
+    "path": "The-Gambler-Kenny-Rogers",
+    "title": "The Gambler",
+    "artist": "Kenny Rogers"
+  },
+  {
+    "path": "The-foundations-build-me-up-buttercup",
+    "title": "Build Me Up Buttercup",
+    "artist": "The Foundations"
   },
   {
     "path": "Unchained-Melody-Righteous-Brothers",
