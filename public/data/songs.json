@@ -70,6 +70,11 @@
     "artist": "ABBA"
   },
   {
+    "path": "Dancing-in-the-Moonlight",
+    "title": "Dancing in the Moonlight",
+    "artist": "King Harvest"
+  },
+  {
     "path": "Daydream-Believer-The-Monkees",
     "title": "Daydream Believer",
     "artist": "The Monkees"
@@ -108,6 +113,11 @@
     "path": "Heart-Of-Glass-Blondie",
     "title": "Heart Of Glass",
     "artist": "Blondie"
+  },
+  {
+    "path": "Hey-Jude-Remastered-2015-The-Beatles",
+    "title": "Hey Jude (Remastered 2015)",
+    "artist": "The Beatles"
   },
   {
     "path": "Hold-Me-Now-Thompson-Twins",
@@ -155,6 +165,11 @@
     "artist": "Depeche Mode"
   },
   {
+    "path": "Just-the-Two-of-Us-Grover-Washington-Jr",
+    "title": "Just the Two of Us",
+    "artist": "Grover Washington, Jr."
+  },
+  {
     "path": "Just-the-Way-You-Are-Billy-Joel",
     "title": "Just the Way You Are",
     "artist": "Billy Joel"
@@ -171,13 +186,23 @@
   },
   {
     "path": "Lets-Stay-Together-Al-Green",
-    "title": "Let's Stay Together",
+    "title": "Lets Stay Together",
     "artist": "Al Green"
   },
   {
     "path": "Life On Mars",
     "title": "Life On Mars?",
     "artist": "David Bowie"
+  },
+  {
+    "path": "Never-Tear-Us-Apart-INXS",
+    "title": "Never Tear Us Apart",
+    "artist": "INXS"
+  },
+  {
+    "path": "Oh-Darling",
+    "title": "Oh! Darling",
+    "artist": "The Beatles"
   },
   {
     "path": "Once-in-a-Lifetime-2005-Remaster-Talking-Heads",
@@ -205,6 +230,11 @@
     "artist": "Talking Heads"
   },
   {
+    "path": "Rent-Pet-Shop-Boys",
+    "title": "Rent",
+    "artist": "Pet Shop Boys"
+  },
+  {
     "path": "Return-to-Sender-Elvis-Presley",
     "title": "Return to Sender",
     "artist": "Elvis Presley"
@@ -213,6 +243,11 @@
     "path": "Rhiannon-Fleetwood-Mac",
     "title": "Rhiannon",
     "artist": "Fleetwood Mac"
+  },
+  {
+    "path": "Rock-the-Boat-Jazz",
+    "title": "Rock the Boat",
+    "artist": "Hues Corporation"
   },
   {
     "path": "Something-The-Beatles",
@@ -295,6 +330,11 @@
     "artist": "Hot Chocolate"
   },
   {
+    "path": "cant-help-myself",
+    "title": "I Can't Help Myself (Sugar Pie Honey Bunch)",
+    "artist": "Four Tops"
+  },
+  {
     "path": "careless-whisper-george-michael",
     "title": "Careless Whisper",
     "artist": "George Michael"
@@ -318,6 +358,11 @@
     "path": "mad-world",
     "title": "Mad World",
     "artist": "Tears for Fears"
+  },
+  {
+    "path": "no-surprises",
+    "title": "No Surprises",
+    "artist": "Radiohead"
   },
   {
     "path": "stay",

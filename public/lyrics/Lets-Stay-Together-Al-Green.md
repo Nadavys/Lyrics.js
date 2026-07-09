@@ -1,5 +1,5 @@
 ---
-title: "Let's Stay Together"
+title: "Lets Stay Together"
 
 artist: "Al Green"
 
