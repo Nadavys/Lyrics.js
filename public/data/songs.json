@@ -110,6 +110,11 @@
     "artist": "Blondie"
   },
   {
+    "path": "Hold-Me-Now-Thompson-Twins",
+    "title": "Hold Me Now",
+    "artist": "Thompson Twins"
+  },
+  {
     "path": "Honesty-Billy-Joel",
     "title": "Honesty",
     "artist": "Billy Joel"
@@ -192,6 +197,11 @@
   {
     "path": "Psycho-Killer-2003-Remaster-Talking-Heads",
     "title": "Psycho Killer (2003 Remaster)",
+    "artist": "Talking Heads"
+  },
+  {
+    "path": "Psycho-Killer-Live-Talking-Heads",
+    "title": "Psycho Killer (Live)",
     "artist": "Talking Heads"
   },
   {
