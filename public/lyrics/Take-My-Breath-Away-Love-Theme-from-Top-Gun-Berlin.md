@@ -5,7 +5,6 @@ artist: "Berlin"
 
 ---
 
-Take My Breath Away
 Watching every motion
 In my foolish lover's game
 On this endless ocean
