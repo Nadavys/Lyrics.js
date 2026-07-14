@@ -60,6 +60,11 @@
     "artist": "Dexys Midnight Runners"
   },
   {
+    "path": "Copacabana-At-the-Copa-Barry-Manilow",
+    "title": "Copacabana (At the Copa)",
+    "artist": "Barry Manilow"
+  },
+  {
     "path": "Creep-Radiohead",
     "title": "Creep",
     "artist": "Radiohead"
@@ -88,6 +93,11 @@
     "path": "Daydream-Believer-The-Monkees",
     "title": "Daydream Believer",
     "artist": "The Monkees"
+  },
+  {
+    "path": "Dont-Stop-Me-Now-Queen",
+    "title": "Don't Stop Me Now",
+    "artist": "Queen"
   },
   {
     "path": "Dont-Stop-Me-Now-Remastered-Queen",
@@ -170,6 +180,11 @@
     "artist": "Albert Hammond"
   },
   {
+    "path": "Its-a-Heartache-Bonnie-Tyler",
+    "title": "It's a Heartache",
+    "artist": "Bonnie Tyler"
+  },
+  {
     "path": "Just-Cant-Get-Enough-Depeche-Mode",
     "title": "Just Can't Get Enough",
     "artist": "Depeche Mode"
@@ -245,6 +260,11 @@
     "artist": "Talking Heads"
   },
   {
+    "path": "Pumped-Up-Kicks-Foster-the-People",
+    "title": "Pumped Up Kicks",
+    "artist": "Foster the People"
+  },
+  {
     "path": "Rent-Pet-Shop-Boys",
     "title": "Rent",
     "artist": "Pet Shop Boys"
@@ -268,6 +288,11 @@
     "path": "Since-You-Been-Gone",
     "title": "Since You Been Gone",
     "artist": "Rainbow"
+  },
+  {
+    "path": "Smells-Like-Teen-Spirit-Nirvana",
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana"
   },
   {
     "path": "Something-The-Beatles",
@@ -348,6 +373,11 @@
     "path": "You-Sexy-Thing-7-Version-Hot-Chocolate",
     "title": "You Sexy Thing (7'' Version)",
     "artist": "Hot Chocolate"
+  },
+  {
+    "path": "Youve-Lost-That-Lovin-Feelin-Single-Version-The-Righteous-Brothers",
+    "title": "You've Lost That Lovin' Feelin' (Single Version)",
+    "artist": "The Righteous Brothers"
   },
   {
     "path": "cant-help-myself",
