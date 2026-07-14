@@ -50,6 +50,11 @@
     "artist": "Cat Stevens"
   },
   {
+    "path": "Chapel-of-Love-Dixie-Cups",
+    "title": "Chapel of Love",
+    "artist": "Dixie Cups"
+  },
+  {
     "path": "Come-On-Eileen-Dexys-Midnight-Runners",
     "title": "Come On Eileen",
     "artist": "Dexys Midnight Runners"
@@ -72,7 +77,7 @@
   {
     "path": "Dancing-in-the-Moonlight-Toploader",
     "title": "Dancing in the Moonlight",
-    "artist": "Toploader"
+    "artist": "King Harvest"
   },
   {
     "path": "Dancing-in-the-Moonlight",
@@ -205,6 +210,11 @@
     "artist": "INXS"
   },
   {
+    "path": "Nothings-Gonna-Change-My-Love-for-You-George-Benson",
+    "title": "Nothing's Gonna Change My Love for You",
+    "artist": "George Benson"
+  },
+  {
     "path": "Oh-Darling",
     "title": "Oh! Darling",
     "artist": "The Beatles"
@@ -253,6 +263,11 @@
     "path": "Rock-the-Boat-Jazz",
     "title": "Rock the Boat",
     "artist": "Hues Corporation"
+  },
+  {
+    "path": "Since-You-Been-Gone",
+    "title": "Since You Been Gone",
+    "artist": "Rainbow"
   },
   {
     "path": "Something-The-Beatles",
