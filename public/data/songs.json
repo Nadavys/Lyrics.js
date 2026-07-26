@@ -100,11 +100,6 @@
     "artist": "Queen"
   },
   {
-    "path": "Drive-In-Saturday-David-Bowie",
-    "title": "Drive In Saturday",
-    "artist": "David Bowie"
-  },
-  {
     "path": "Easy-Commodores",
     "title": "Easy",
     "artist": "Commodores"
@@ -358,6 +353,11 @@
     "path": "Unchained-Melody-Righteous-Brothers",
     "title": "Unchained Melody",
     "artist": "Righteous Brothers"
+  },
+  {
+    "path": "Walk-On-the-Wild-Side-Lou-Reed",
+    "title": "Walk On the Wild Side",
+    "artist": "Lou Reed"
   },
   {
     "path": "While-My-Guitar-Gently-Weeps",
