@@ -5,57 +5,56 @@ artist: "King Harvest"
 
 ---
 
-We get it almost every night
-when that moon is big and bright
-it's a supernatural delight
-everybody's dancing in the moonlight
+[Verse 1]
+We get it on most every night
+And when that moon gets so big and bright
+It's a supernatural delight
+Everybody was dancing in the moonlight
 
+[Verse 2]
 Everybody here is out of sight
-they don't bark and they don't bite
-they keep things loose they keep it tight
-everybody's dancing in the moonlight
+They don't bark and they don't bite
+They keep things loose, they keep things light
+Everybody was dancing in the moonlight
 
+[Chorus]
 Dancing in the moonlight
-everybody's feeling warm and bright
-it's such a fine and natural sight
-everybody's dancing in the moonlight
+Everybody's feeling warm and bright
+It's such a fine and natural sight
+Everybody's dancing in the moonlight
 
+[Verse 3]
 We like our fun and we never fight
-you can't dance and stay uptight
-it's a supernatural delight
-everybody was dancing in the moonlight
+You can't dance and stay uptight
+It's a supernatural delight
+Everybody was dancing in the moonlight
 
+[Chorus]
 Dancing in the moonlight
-everybody's feeling warm and bright
-it's such a fine and natural sight
-everybody's dancing in the moonlight
+Everybody's feeling warm and bright
+It's such a fine and natural sight
+Everybody's dancing in the moonlight
 
-We get in almost every night
-and when that moon is big and bright
-it's a supernatural delight
-everybody's dancing in the moonlight
+[Verse 2]
+Everybody here is out of sight
+They don't bark and they don't bite
+They keep things loose, they keep things light
+Everybody was dancing in the moonlight
 
-Dancing in the moonlight
-everybody's feeling warm and bright
-it's such a fine and natural sight
-everybody's dancing in the moonlight
-
-Dancing in the moonlight
-everybody's feeling warm and bright
-it's such a fine and natural sight
-everybody's dancing in the moonlight
-
-Dancing in the moonlight
-everybody's feeling warm and bright
-it's such a fine and natural sight
-everybody's dancing in the moonlight
-
-Dancing in the moonlight
-everybody's feeling warm and bright
-it's such a fine and natural sight
-everybody's dancing in the moonlight
-
-Dancing in the moonlight
-everybody's feeling warm and bright
-it's such a fine and natural sight
-everybody's dancing in the moonlight
+[Chorus]
+Everybody's dancing in the moonlight
+Everybody's feeling warm and bright
+It's such a fine and natural sight
+Everybody's dancing in the moonlight
+Everybody's dancing in the moonlight
+Everybody's feeling warm and bright
+It's such a fine and natural sight
+Everybody's dancing in the moonlight (Mm-Hm)
+Everybody's dancing in the moonlight
+Everybody's feeling warm and bright
+It's such a fine and natural sight
+Everybody's dancing in the moonlight
+Everybody's dancing in the moonlight
+Everybody's feeling warm and bright
+It's such a fine and natural sight
+Everybody's dancing in the moonlight
