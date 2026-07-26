@@ -80,11 +80,6 @@
     "artist": "ABBA"
   },
   {
-    "path": "Dancing-in-the-Moonlight-Toploader",
-    "title": "Dancing in the Moonlight",
-    "artist": "King Harvest"
-  },
-  {
     "path": "Dancing-in-the-Moonlight",
     "title": "Dancing in the Moonlight",
     "artist": "King Harvest"
@@ -103,6 +98,11 @@
     "path": "Dont-Stop-Me-Now-Remastered-Queen",
     "title": "Don't Stop Me Now",
     "artist": "Queen"
+  },
+  {
+    "path": "Drive-In-Saturday-David-Bowie",
+    "title": "Drive In Saturday",
+    "artist": "David Bowie"
   },
   {
     "path": "Easy-Commodores",
@@ -255,11 +255,6 @@
     "artist": "Talking Heads"
   },
   {
-    "path": "Psycho-Killer-Live-Talking-Heads",
-    "title": "Psycho Killer (Live)",
-    "artist": "Talking Heads"
-  },
-  {
     "path": "Pumped-Up-Kicks-Foster-the-People",
     "title": "Pumped Up Kicks",
     "artist": "Foster the People"
@@ -321,7 +316,7 @@
   },
   {
     "path": "Take-My-Breath-Away-Love-Theme-from-Top-Gun-Berlin",
-    "title": "Take My Breath Away (Love Theme from \"Top Gun\")",
+    "title": "Take My Breath Away",
     "artist": "Berlin"
   },
   {
