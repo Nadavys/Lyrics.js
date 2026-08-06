@@ -1,18 +1,24 @@
-import { useState, useRef, useEffect } from 'react'
+import { useRef, useLayoutEffect, type RefObject } from 'react'
 import { type Song } from '../data/songs'
 
 interface Props {
   songs: Song[]
   onSelect: (path: string) => void
+  filter: string
+  onFilterChange: (filter: string) => void
+  initialScrollYRef: RefObject<number>
 }
 
-export default function SongListPage({ songs, onSelect }: Props) {
-  const [filter, setFilter] = useState('')
+export default function SongListPage({ songs, onSelect, filter, onFilterChange, initialScrollYRef }: Props) {
   const inputRef = useRef<HTMLInputElement>(null)
 
-  useEffect(() => {
-    inputRef.current?.focus()
-  }, [])
+  useLayoutEffect(() => {
+    if (initialScrollYRef.current > 0) {
+      window.scrollTo(0, initialScrollYRef.current)
+    } else {
+      inputRef.current?.focus()
+    }
+  }, [initialScrollYRef])
 
   const f = filter.trim().toLowerCase()
   const rows = songs.filter(s => {
@@ -43,7 +49,7 @@ export default function SongListPage({ songs, onSelect }: Props) {
           autoComplete="off"
           placeholder="Search by song or artist"
           value={filter}
-          onChange={e => setFilter(e.target.value)}
+          onChange={e => onFilterChange(e.target.value)}
           className="w-full border-0 border-b border-ink bg-transparent text-[28px] tracking-[-0.01em] py-[14px] pl-9 pr-0 text-ink outline-none placeholder:text-muted placeholder:font-light max-[540px]:text-[30px] max-[540px]:py-4"
         />
       </div>

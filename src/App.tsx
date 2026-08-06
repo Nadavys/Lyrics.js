@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { type Song } from './data/songs'
 import SongListPage from './pages/SongListPage'
 import LyricsPage from './pages/LyricsPage'
@@ -10,6 +10,8 @@ function getPathFromUrl() {
 export default function App() {
   const [songs, setSongs] = useState<Song[]>([])
   const [songPath, setSongPath] = useState<string | null>(getPathFromUrl)
+  const [listFilter, setListFilter] = useState('')
+  const listScrollRef = useRef(0)
 
   useEffect(() => {
     fetch('/data/songs.json').then(r => r.json()).then(setSongs)
@@ -22,6 +24,7 @@ export default function App() {
   }, [])
 
   const goToLyrics = useCallback((path: string) => {
+    listScrollRef.current = window.scrollY
     history.pushState({}, '', '?path=' + encodeURIComponent(path))
     setSongPath(path)
     window.scrollTo(0, 0)
@@ -38,5 +41,13 @@ export default function App() {
     return <LyricsPage song={song} onBack={goToList} />
   }
 
-  return <SongListPage songs={songs} onSelect={goToLyrics} />
+  return (
+    <SongListPage
+      songs={songs}
+      onSelect={goToLyrics}
+      filter={listFilter}
+      onFilterChange={setListFilter}
+      initialScrollYRef={listScrollRef}
+    />
+  )
 }
