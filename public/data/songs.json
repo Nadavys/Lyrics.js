@@ -101,8 +101,13 @@
   },
   {
     "path": "Dream-a-Little-Dream-of-Me-with-Paul-Weston-His-Music-From-Hollywood-Doris-Day",
-    "title": "Dream a Little Dream of Me (with Paul Weston & His Music From Hollywood)",
+    "title": "Dream a Little Dream of Me",
     "artist": "Doris Day"
+  },
+  {
+    "path": "Drive-In-Saturday-David-Bowie",
+    "title": "Drive In Saturday",
+    "artist": "David Bowie"
   },
   {
     "path": "Easy-Commodores",
@@ -218,6 +223,21 @@
     "path": "Life On Mars",
     "title": "Life On Mars?",
     "artist": "David Bowie"
+  },
+  {
+    "path": "Lola-The-Kinks",
+    "title": "Lola",
+    "artist": "The Kinks"
+  },
+  {
+    "path": "Maneater-",
+    "title": "Maneater",
+    "artist": "Hall & Oates"
+  },
+  {
+    "path": "Nat-King-Cole-L-O-V-E",
+    "title": "L-O-V-E",
+    "artist": "Nat King Cole"
   },
   {
     "path": "Never-Tear-Us-Apart-INXS",
