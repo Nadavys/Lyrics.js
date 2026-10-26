@@ -3,18 +3,27 @@ import { type Song } from './data/songs'
 import SongListPage from './pages/SongListPage'
 import LyricsPage from './pages/LyricsPage'
 
+export type LoadStatus = 'loading' | 'ready' | 'error'
+
 function getPathFromUrl() {
   return new URLSearchParams(window.location.search).get('path')
 }
 
 export default function App() {
   const [songs, setSongs] = useState<Song[]>([])
+  const [status, setStatus] = useState<LoadStatus>('loading')
   const [songPath, setSongPath] = useState<string | null>(getPathFromUrl)
   const [listFilter, setListFilter] = useState('')
   const listScrollRef = useRef(0)
 
   useEffect(() => {
-    fetch('/data/songs.json').then(r => r.json()).then(setSongs)
+    fetch('/data/songs.json')
+      .then(r => {
+        if (!r.ok) throw new Error(String(r.status))
+        return r.json()
+      })
+      .then(data => { setSongs(data); setStatus('ready') })
+      .catch(() => setStatus('error'))
   }, [])
 
   useEffect(() => {
@@ -38,12 +47,13 @@ export default function App() {
 
   if (songPath) {
     const song = songs.find(s => s.path === songPath) ?? null
-    return <LyricsPage song={song} onBack={goToList} />
+    return <LyricsPage song={song} status={status} onBack={goToList} />
   }
 
   return (
     <SongListPage
       songs={songs}
+      status={status}
       onSelect={goToLyrics}
       filter={listFilter}
       onFilterChange={setListFilter}

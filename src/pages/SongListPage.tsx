@@ -1,15 +1,17 @@
 import { useRef, useLayoutEffect, type RefObject } from 'react'
 import { type Song } from '../data/songs'
+import { type LoadStatus } from '../App'
 
 interface Props {
   songs: Song[]
+  status: LoadStatus
   onSelect: (path: string) => void
   filter: string
   onFilterChange: (filter: string) => void
   initialScrollYRef: RefObject<number>
 }
 
-export default function SongListPage({ songs, onSelect, filter, onFilterChange, initialScrollYRef }: Props) {
+export default function SongListPage({ songs, status, onSelect, filter, onFilterChange, initialScrollYRef }: Props) {
   const inputRef = useRef<HTMLInputElement>(null)
 
   useLayoutEffect(() => {
@@ -27,12 +29,12 @@ export default function SongListPage({ songs, onSelect, filter, onFilterChange, 
   }).sort((a, b) => a.title.localeCompare(b.title))
 
   return (
-    <main className="max-w-[760px] mx-auto px-8 pt-14 pb-[120px] max-[540px]:px-4 max-[540px]:pt-6 max-[540px]:pb-20">
-      <header className="flex items-baseline justify-between mb-12 max-[540px]:mb-8">
-        <div className="text-[22px] font-medium tracking-[-0.02em] max-[540px]:text-[26px]">
+    <main className="max-w-[760px] mx-auto px-4 pt-6 pb-20 wide:px-8 wide:pt-14 wide:pb-[120px]">
+      <header className="flex items-baseline justify-between mb-8 wide:mb-12">
+        <h1 className="type-brand m-0">
           Lyrics
-          <span className="inline-block w-1.5 h-1.5 bg-ink rounded-full ml-[1px] mr-[2px] mb-[2px] align-middle" />
-        </div>
+          <span className="inline-block w-1.5 h-1.5 bg-ink rounded-full ml-[1px] mr-[2px] mb-[2px] align-middle" aria-hidden="true" />
+        </h1>
       </header>
 
       <div className="relative mb-2">
@@ -47,14 +49,18 @@ export default function SongListPage({ songs, onSelect, filter, onFilterChange, 
           id="q"
           type="search"
           autoComplete="off"
+          autoCorrect="off"
+          spellCheck={false}
+          enterKeyHint="search"
+          aria-label="Search by song or artist"
           placeholder="Search by song or artist"
           value={filter}
           onChange={e => onFilterChange(e.target.value)}
-          className="w-full border-0 border-b border-ink bg-transparent text-[28px] tracking-[-0.01em] py-[14px] pl-9 pr-0 text-ink outline-none placeholder:text-muted placeholder:font-light max-[540px]:text-[30px] max-[540px]:py-4"
+          className="w-full border-0 border-b border-ink rounded-none bg-transparent type-search py-4 pl-9 pr-0 text-ink outline-none placeholder:text-muted placeholder:font-light focus-visible:border-b-2 focus-visible:pb-[15px] wide:py-[14px] wide:focus-visible:pb-[13px]"
         />
       </div>
 
-      <div className="text-[12px] text-muted mt-[18px] mb-2 tracking-[0.06em] uppercase">
+      <div className="type-label text-muted mt-[18px] mb-2 min-h-[1lh]" aria-live="polite">
         {rows.length === 0
           ? ''
           : f
@@ -68,17 +74,23 @@ export default function SongListPage({ songs, onSelect, filter, onFilterChange, 
             <a
               href={`?path=${encodeURIComponent(s.path)}`}
               onClick={e => { e.preventDefault(); onSelect(s.path) }}
-              className="grid grid-cols-[1fr_auto] items-baseline gap-6 py-[18px] pl-0 pr-3 [transition:background-color_120ms_ease,padding_120ms_ease] cursor-pointer hover:bg-hover hover:pl-3 hover:pr-6 max-[540px]:grid-cols-1 max-[540px]:gap-1 max-[540px]:py-[22px]"
+              className="grid grid-cols-1 gap-1 py-[22px] pl-0 pr-3 [transition:background-color_120ms_ease,padding_120ms_ease] cursor-pointer active:bg-hover hover:bg-hover hover:pl-3 hover:pr-6 wide:grid-cols-[1fr_auto] wide:items-baseline wide:gap-6 wide:py-[18px]"
             >
-              <span className="text-[19px] font-medium tracking-[-0.01em] max-[540px]:text-[22px]">{s.title}</span>
-              <span className="text-[14px] text-muted text-right whitespace-nowrap max-[540px]:text-[16px] max-[540px]:text-left">{s.artist}</span>
+              <span className="type-title">{s.title}</span>
+              <span className="type-meta text-muted wide:text-right wide:whitespace-nowrap">{s.artist}</span>
             </a>
           </li>
         ))}
       </ul>
 
-      {rows.length === 0 && f && (
-        <div className="py-16 text-center text-muted text-[14px]">No songs match that.</div>
+      {status === 'error' && (
+        <div className="py-16 text-center text-muted type-meta">
+          Couldn’t load the song list. Check your connection and reload.
+        </div>
+      )}
+
+      {status === 'ready' && rows.length === 0 && f && (
+        <div className="py-16 text-center text-muted type-meta">No songs match that.</div>
       )}
     </main>
   )

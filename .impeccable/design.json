@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-26T12:00:00Z",
+  "title": "Design System: Lyrics",
+  "extensions": {
+    "colorMeta": {
+      "bone": {
+        "role": "neutral",
+        "displayName": "Bone",
+        "canonical": "#fbfaf7",
+        "tonalRamp": [
+          "oklch(15% 0.004 85)",
+          "oklch(27% 0.004 85)",
+          "oklch(39% 0.004 85)",
+          "oklch(51% 0.004 85)",
+          "oklch(63% 0.004 85)",
+          "oklch(75% 0.004 85)",
+          "oklch(87% 0.004 85)",
+          "oklch(98.4% 0.004 85)"
+        ]
+      },
+      "soft-black": {
+        "role": "neutral",
+        "displayName": "Soft Black",
+        "canonical": "#1a1a1a",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(21.8% 0 0)",
+          "oklch(35% 0 0)",
+          "oklch(47% 0 0)",
+          "oklch(59% 0 0)",
+          "oklch(71% 0 0)",
+          "oklch(83% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "warm-stone": {
+        "role": "neutral",
+        "displayName": "Warm Stone",
+        "canonical": "#6e6a62",
+        "tonalRamp": [
+          "oklch(15% 0.008 85)",
+          "oklch(27% 0.008 85)",
+          "oklch(39% 0.008 85)",
+          "oklch(51% 0.008 85)",
+          "oklch(55.5% 0.008 85)",
+          "oklch(73% 0.008 85)",
+          "oklch(84% 0.008 85)",
+          "oklch(95% 0.008 85)"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#e8e5dd",
+        "tonalRamp": [
+          "oklch(15% 0.01 85)",
+          "oklch(27% 0.01 85)",
+          "oklch(39% 0.01 85)",
+          "oklch(51% 0.01 85)",
+          "oklch(63% 0.01 85)",
+          "oklch(75% 0.01 85)",
+          "oklch(87% 0.01 85)",
+          "oklch(92.3% 0.01 85)"
+        ]
+      },
+      "warm-wash": {
+        "role": "neutral",
+        "displayName": "Warm Wash",
+        "canonical": "#f3f0e8",
+        "tonalRamp": [
+          "oklch(15% 0.01 85)",
+          "oklch(27% 0.01 85)",
+          "oklch(39% 0.01 85)",
+          "oklch(51% 0.01 85)",
+          "oklch(63% 0.01 85)",
+          "oklch(75% 0.01 85)",
+          "oklch(87% 0.01 85)",
+          "oklch(95.6% 0.01 85)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Song title on the lyrics view. 42px on phone, 44px on wide."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Search field text. 30px on phone, 28px on wide; placeholder at weight 300."
+      },
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "The 'Lyrics' wordmark (h1). 26px on phone, 22px on wide."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Song titles in the list. 22px on phone, 19px on wide."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Lyrics, one block per line with a 1em hanging indent. 22px/1.45 on phone, 20px/1.5 on wide."
+      },
+      "body-sm": {
+        "displayName": "Body small",
+        "purpose": "Artist names and empty, error and loading messages. 16px on phone, 14px on wide."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase Warm Stone label with tabular figures: song count, 'Artist', section markers."
+      },
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "'All songs' back link. 17px on phone, 14px on wide."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "state-quick",
+        "value": "120ms ease",
+        "purpose": "Song row hover fill and indent; back link colour change."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "540px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "Underlined, borderless search with an inline magnifier; the list page's main control.",
+      "html": "<label class=\"ds-search\"><span class=\"ds-search-glyph\" aria-hidden=\"true\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\"><circle cx=\"8\" cy=\"8\" r=\"5.5\" stroke=\"currentColor\" stroke-width=\"1.25\"/><line x1=\"12.2\" y1=\"12.2\" x2=\"16\" y2=\"16\" stroke=\"currentColor\" stroke-width=\"1.25\" stroke-linecap=\"round\"/></svg></span><input class=\"ds-search-input\" type=\"search\" placeholder=\"Search by song or artist\"></label>",
+      "css": ".ds-search { position: relative; display: block; } .ds-search-glyph { position: absolute; left: 2px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; color: var(--color-muted, #6e6a62); pointer-events: none; } .ds-search-input { width: 100%; border: 0; border-bottom: 1px solid var(--color-ink, #1a1a1a); border-radius: 0; -webkit-appearance: none; appearance: none; background: transparent; font-family: 'Noto Sans', system-ui, sans-serif; font-size: 30px; letter-spacing: -0.01em; padding: 16px 0 16px 36px; color: var(--color-ink, #1a1a1a); outline: none; } .ds-search-input::placeholder { color: var(--color-muted, #6e6a62); font-weight: 300; } .ds-search-input:focus-visible { border-bottom-width: 2px; padding-bottom: 15px; }"
+    },
+    {
+      "name": "Song Row",
+      "kind": "custom",
+      "refersTo": "song-row",
+      "description": "Signature list row: stacked on phone (press shows Warm Wash); title left, artist right on wide, indenting on hover.",
+      "html": "<ul class=\"ds-list\"><li class=\"ds-row-item\"><a class=\"ds-row\" href=\"#\"><span class=\"ds-row-title\">Song title</span><span class=\"ds-row-artist\">Artist name</span></a></li><li class=\"ds-row-item\"><a class=\"ds-row\" href=\"#\"><span class=\"ds-row-title\">Another song</span><span class=\"ds-row-artist\">Another artist</span></a></li></ul>",
+      "css": ".ds-list { list-style: none; margin: 0; padding: 0; } .ds-row-item { border-bottom: 1px solid var(--color-hairline, #e8e5dd); } .ds-row { display: grid; grid-template-columns: 1fr; gap: 4px; padding: 22px 12px 22px 0; color: var(--color-ink, #1a1a1a); text-decoration: none; font-family: 'Noto Sans', system-ui, sans-serif; transition: background-color 120ms ease, padding 120ms ease; } .ds-row:active { background: var(--color-hover, #f3f0e8); } .ds-row:focus-visible { outline: 2px solid var(--color-ink, #1a1a1a); outline-offset: -2px; } @media (min-width: 540px) { .ds-row { grid-template-columns: 1fr auto; align-items: baseline; gap: 24px; padding: 18px 12px 18px 0; } } @media (min-width: 540px) and (hover: hover) { .ds-row:hover { background: var(--color-hover, #f3f0e8); padding-left: 12px; padding-right: 24px; } } .ds-row-title { font-size: 22px; line-height: 1.25; font-weight: 500; letter-spacing: -0.01em; } .ds-row-artist { font-size: 16px; color: var(--color-muted, #6e6a62); }"
+    },
+    {
+      "name": "Back Link",
+      "kind": "nav",
+      "refersTo": "back-link",
+      "description": "Phone: full-width 52px 'All songs' tap bar under a Hairline. Wide: inline text button.",
+      "html": "<button class=\"ds-back\" type=\"button\"><svg width=\"14\" height=\"10\" viewBox=\"0 0 14 10\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 1L1 5L5 9M1 5H13\" stroke=\"currentColor\" stroke-width=\"1.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><span>All songs</span></button>",
+      "css": ".ds-back { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 52px; padding: 0 16px; font-family: 'Noto Sans', system-ui, sans-serif; font-size: 17px; letter-spacing: 0.01em; color: var(--color-muted, #6e6a62); background: var(--color-bg, #fbfaf7); border: none; border-bottom: 1px solid var(--color-hairline, #e8e5dd); cursor: pointer; transition: color 120ms ease; } .ds-back svg { width: 18px; height: 13px; } .ds-back:active { color: var(--color-ink, #1a1a1a); } .ds-back:focus-visible { outline: 2px solid var(--color-ink, #1a1a1a); outline-offset: -2px; }"
+    },
+    {
+      "name": "Brand Masthead",
+      "kind": "custom",
+      "refersTo": "brand",
+      "description": "The 'Lyrics' wordmark with its 6px ink dot.",
+      "html": "<div class=\"ds-brand\">Lyrics<span class=\"ds-brand-dot\"></span></div>",
+      "css": ".ds-brand { font-family: 'Noto Sans', system-ui, sans-serif; font-size: 26px; font-weight: 500; letter-spacing: -0.02em; color: var(--color-ink, #1a1a1a); } .ds-brand-dot { display: inline-block; width: 6px; height: 6px; background: var(--color-ink, #1a1a1a); border-radius: 50%; margin: 0 2px 2px 1px; vertical-align: middle; }"
+    },
+    {
+      "name": "Lyrics Header",
+      "kind": "custom",
+      "refersTo": "lyrics-body",
+      "description": "Display title, labelled artist, and the line-by-line body with hanging indent and a section marker (placeholder text only).",
+      "html": "<header class=\"ds-lh\"><h1 class=\"ds-lh-title\">Song title</h1><div class=\"ds-lh-meta\"><span class=\"ds-lh-label\">Artist</span><span class=\"ds-lh-artist\">Artist name</span></div></header><div class=\"ds-lh-body\"><p class=\"ds-stanza\"><span class=\"ds-marker\">Verse</span><span class=\"ds-line\">First placeholder line of the verse</span><span class=\"ds-line\">A longer placeholder line that wraps on a phone to show the hanging indent</span></p><p class=\"ds-stanza\"><span class=\"ds-marker\">Chorus</span><span class=\"ds-line\">Placeholder chorus line</span></p></div>",
+      "css": ".ds-lh { margin-bottom: 40px; font-family: 'Noto Sans', system-ui, sans-serif; } .ds-lh-title { font-size: 42px; font-weight: 500; letter-spacing: -0.025em; line-height: 1.05; margin: 0 0 18px; color: var(--color-ink, #1a1a1a); text-wrap: balance; } .ds-lh-meta { display: inline-flex; align-items: baseline; gap: 8px; font-size: 16px; color: var(--color-muted, #6e6a62); } .ds-lh-label, .ds-marker { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-muted, #6e6a62); } .ds-lh-artist { color: var(--color-ink, #1a1a1a); } .ds-lh-body { font-family: 'Noto Sans', system-ui, sans-serif; font-size: 22px; line-height: 1.45; letter-spacing: -0.005em; color: var(--color-ink, #1a1a1a); } .ds-stanza { margin: 0 0 0.9em; } .ds-stanza:last-child { margin-bottom: 0; } .ds-line, .ds-marker { display: block; padding-left: 1em; text-indent: -1em; text-wrap: pretty; } .ds-marker { padding-bottom: 4px; }"
+    },
+    {
+      "name": "Count Label",
+      "kind": "chip",
+      "refersTo": "label",
+      "description": "Uppercase song count above the list.",
+      "html": "<div class=\"ds-count\">12 of 92 songs</div>",
+      "css": ".ds-count { font-family: 'Noto Sans', system-ui, sans-serif; font-size: 12px; letter-spacing: 0.08em; font-variant-numeric: tabular-nums; text-transform: uppercase; color: var(--color-muted, #6e6a62); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Page",
+    "overview": "Everything steps back so the words sit alone on warm paper. The system has one surface (Bone), one ink (Soft Black), one secondary voice (Warm Stone), and hairline rules to separate things. It uses no boxes, no shadows, no rounded corners and no accent colour. Hierarchy comes from type size and weight only, and the interface reads more like a typeset page than an app.\n\nDensity is low and the rhythm is generous: one narrow column (760px max), wide vertical spacing, and list rows tall enough to tap easily. On phones the type gets *larger*, not smaller, because the reader holds the phone at arm's length while singing. Controls are calm and precise: restrained in form, but carried by exact small details like the 12px hover indent on song rows, the 1.25px icon strokes and the tight negative tracking on large type.",
+    "keyCharacteristics": [
+      "Designed for the phone first and above all, specifically iOS Safari. Desktop is the secondary layout.",
+      "Monochrome warm palette, no accent colour",
+      "Flat: depth is never simulated, and hairlines do all the separating",
+      "Square corners everywhere",
+      "One sans family (Noto Sans) at a few weights, with negative tracking on large sizes",
+      "Mobile type scales up below 540px",
+      "Motion limited to 120ms colour and padding transitions"
+    ],
+    "rules": [
+      {
+        "name": "The Phone-First Rule",
+        "body": "This site is designed first and foremost for a phone. Design every screen and component at phone width (about 360–430px) first. The phone values here (16px gutters, 22px rows, 52px back bar, enlarged type) are the primary spec, and the desktop layout is an adaptation of them. Interactive targets are at least 44px tall, and nothing scrolls sideways. Hover effects are extras for desktop; no feature may depend on hover. A change is not done until it has been checked at phone width.",
+        "section": "layout"
+      },
+      {
+        "name": "The iOS Safari Rule",
+        "body": "The primary browser is Safari on iPhone, both in a tab and installed to the Home Screen. When a choice has to favour one browser, it favours iOS Safari: safe-area insets with viewport-fit=cover, text inputs at least 16px, Safari form styling reset, no hover dependence, theme-color Bone, a square full-bleed apple-touch-icon, dvh/svh instead of vh, and fonts cached for offline.",
+        "section": "layout"
+      },
+      {
+        "name": "The No-Accent Rule",
+        "body": "The palette has no brand or accent colour. Emphasis comes from Soft Black against Warm Stone, or from size and weight. A new colour must earn its place against the principle \"Words first\".",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Voice Rule",
+        "body": "Text is either Soft Black (content) or Warm Stone (metadata, labels, chrome). No third text colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Grow-on-Mobile Rule",
+        "body": "The phone sizes are the larger ones: titles are 22px against 19px on wide screens, lyrics 22 against 20, artist 16 against 14, back link 17 against 14. Never shrink type for small screens.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tight-Large, Loose-Small Rule",
+        "body": "Tracking goes negative as size goes up (−0.025em on display) and positive on small uppercase labels (+0.06–0.08em).",
+        "section": "typography"
+      },
+      {
+        "name": "The Hairline-Not-Shadow Rule",
+        "body": "Separation is a 1px Hairline or Soft Black rule. If something needs to read as raised, the answer is a rule or a fill change, never a shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do design and check every change at phone width first (about 360–430px), for iOS Safari above all. Desktop comes second.",
+      "Do use the type-* role utilities and the wide: variant instead of arbitrary sizes and max-[540px]: overrides.",
+      "Do keep new fixed or sticky elements clear of the iOS safe areas.",
+      "Do keep everything on Bone with Soft Black and Warm Stone text. Use Warm Wash only for hover and Hairline only for 1px rules.",
+      "Do make type larger, never smaller, below the 540px breakpoint.",
+      "Do separate items with 1px Hairline rules and space, not containers.",
+      "Do use negative tracking on type 19px and above, and positive tracking on small uppercase labels.",
+      "Do keep transitions to colour and padding at about 120ms ease.",
+      "Do draw icons as inline SVG with 1.25px round-capped strokes in currentColor."
+    ],
+    "donts": [
+      "Don't add an accent or brand colour, gradients, or pure black (#000) / pure white (#fff) surfaces.",
+      "Don't add shadows, blur, or rounded corners.",
+      "Don't wrap content in cards, boxes or pills.",
+      "Don't introduce a second typeface or weights above 500 in the interface.",
+      "Don't make any text input smaller than 16px (iOS Safari zooms on focus) or rely on hover for anything.",
+      "Don't use sample lyric text in mockups or component examples. Use neutral placeholders."
+    ]
+  }
+}
