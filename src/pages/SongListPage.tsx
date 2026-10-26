@@ -53,7 +53,7 @@ export default function SongListPage({ songs, status, onSelect, filter, onFilter
           spellCheck={false}
           enterKeyHint="search"
           aria-label="Search by song or artist"
-          placeholder="Search by song or artist"
+          placeholder="Song or artist"
           value={filter}
           onChange={e => onFilterChange(e.target.value)}
           className="w-full border-0 border-b border-ink rounded-none bg-transparent type-search py-4 pl-9 pr-0 text-ink outline-none placeholder:text-muted placeholder:font-light focus-visible:border-b-2 focus-visible:pb-[15px] wide:py-[14px] wide:focus-visible:pb-[13px]"
@@ -74,7 +74,7 @@ export default function SongListPage({ songs, status, onSelect, filter, onFilter
             <a
               href={`?path=${encodeURIComponent(s.path)}`}
               onClick={e => { e.preventDefault(); onSelect(s.path) }}
-              className="grid grid-cols-1 gap-1 py-[22px] pl-0 pr-3 [transition:background-color_120ms_ease,padding_120ms_ease] cursor-pointer active:bg-hover hover:bg-hover hover:pl-3 hover:pr-6 wide:grid-cols-[1fr_auto] wide:items-baseline wide:gap-6 wide:py-[18px]"
+              className="grid grid-cols-1 gap-1 py-[22px] pl-0 pr-3 [transition:background-color_120ms_ease,padding_120ms_ease] cursor-pointer active:bg-hover hover:bg-hover hover:pl-3 hover:pr-6 focus-visible:bg-hover focus-visible:pl-3 focus-visible:pr-6 wide:grid-cols-[1fr_auto] wide:items-baseline wide:gap-6 wide:py-[18px]"
             >
               <span className="type-title">{s.title}</span>
               <span className="type-meta text-muted wide:text-right wide:whitespace-nowrap">{s.artist}</span>

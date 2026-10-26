@@ -198,7 +198,7 @@ Calm and precise. Controls look like typography and rules rather than widgets.
 ### Inputs / Fields
 - **Search field:** borderless except for a 1px Soft Black underline, with square corners even on iOS. Transparent background, Headline type, the magnifier icon in Warm Stone 2px from the left, and 36px left padding to clear it. It has an accessible label of "Search by song or artist", autocorrect and spellcheck are off, and the return key reads "Search".
 - **Focus:** keyboard focus thickens the underline to 2px, with padding compensating so the height doesn't change. The field auto-focuses on load unless returning to a scrolled list position.
-- **Placeholder:** "Search by song or artist", in Warm Stone at weight 300.
+- **Placeholder:** "Song or artist", in Warm Stone at weight 300. It's kept short so it fits at 30px on a 375px phone without clipping. The full wording lives in the accessible label.
 
 ### Navigation
 - **Back link ("All songs"):** on the phone, a full-width 52px tap bar with an arrow icon and Nav type, Warm Stone at rest and Soft Black when pressed. On wide screens it is an inline text button at least 44px tall, turning Soft Black on hover (120ms).
