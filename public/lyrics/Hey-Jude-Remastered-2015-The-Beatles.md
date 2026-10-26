@@ -1,5 +1,5 @@
 ---
-title: "Hey Jude (Remastered 2015)"
+title: "Hey Jude"
 
 artist: "The Beatles"
 

@@ -1,5 +1,5 @@
 ---
-title: "Twist And Shout (Remastered 2009)"
+title: "Twist And Shout"
 
 artist: "The Beatles"
 
